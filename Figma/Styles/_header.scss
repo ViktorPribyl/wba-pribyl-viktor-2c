@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: $der-back-color;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo{
+    height: 150px;
+    width: 150px;
+}
+
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p{
+        margin: 16px;
+    }
+
+    div:hover{
+        background-color: $der-hover-color;
+    }
+}
+
+.header-burger{
+    display: none;
+}
+
+.burger-menu{
+    display: none;
+}
